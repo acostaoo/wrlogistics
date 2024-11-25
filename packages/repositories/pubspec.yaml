@@ -1,0 +1,22 @@
+name: repositories
+description: paquetes que contiene los repositorios varios utilizados para la aplicación
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: '^3.2.0'
+
+dependencies:
+  cache:
+    path: ../cache
+  flutter:
+    sdk: flutter
+  fake_cloud_firestore: ^2.4.4
+  firebase_auth_mocks: ^0.13.0
+  firebase_auth_platform_interface: ^7.0.8
+  json_annotation: ^4.8.1
+  google_sign_in_mocks: ^0.3.0
+
+dev_dependencies:
+  json_serializable: ^6.7.1
+  build_runner: ^2.1.2
